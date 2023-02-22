@@ -1,38 +1,179 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'poppins_regular';
+  src: url(./fonts/poppins/poppins_regular.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'poppins_bold';
+  src: url(./fonts/poppins/poppins_bold.ttf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'poppins_light';
+  src: url(./fonts/poppins/poppins_light.ttf);
+}
+
+
+@font-face {
+  font-family: 'poppins_italic';
+  src: url(./fonts/poppins/poppins_italic.ttf);
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #219ebc;
+  color: #fff;
+  padding: 1rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.App-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.App-title {
+  font-family: "poppins_bold";
+  margin: 0 0 0 0.5rem;
+}
+
+.App-main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2rem;
+  background-color: #111317;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+.main-headline {
+  font-family: "poppins_regular";
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.main-subheadline {
+  font-family: "poppins_italic";
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* .main-body {
+  font-family: "poppins_italic";
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+} */
+
+
+.examples-container {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.example-image {
+  width: 100%;
+  max-width: 300px;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  background-color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+}
+
+.contact-button {
+  background-color: #2a9d8f;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.App-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.linkedin-link {
+  font-size: 1.5rem;
+  margin: 0 0 0 0.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .main-headline {
+    font-size: 1.5rem;
+  }
+
+  .main-subheadline {
+    font-size: 1.2rem;
+  }
+
+  .example-image {
+    max-width: 200px;
+  }
+
+  .contact-button {
+    font-size: 1.2rem;
+  }
+
+  .footer-text,
+  .linkedin-link {
+    font-size: 1.2rem;
+  }
+}
+ 
+h1,h2,h3,p {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
