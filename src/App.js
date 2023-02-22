@@ -51,7 +51,7 @@ function App() {
             </div>
           </div>
         )}
-        <a href="https://wa.me/whatsapp_number" target="_blank" rel="noopener noreferrer" className="contact-button">Contact Now</a>
+        <a href="https://wa.me/917999896920?text=I'm%20interested%20in%20getting%20AI%20PhotoShoot" target="_blank" rel="noopener noreferrer" className="contact-button">I am Interested</a>
       </main>
       <footer className="App-footer">
         <p className="footer-text">Who made this?</p>
