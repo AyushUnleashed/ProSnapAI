@@ -55,7 +55,7 @@ function App() {
       </main>
       <footer className="App-footer">
         <p className="footer-text">Who made this?</p>
-        <a href="https://www.linkedin.com/in/name" target="_blank" rel="noopener noreferrer" className="linkedin-link">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/ayushunleashed" target="_blank" rel="noopener noreferrer" className="linkedin-link">Ayush Yadav</a>
       </footer>
     </div>
   );
