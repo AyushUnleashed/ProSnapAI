@@ -29,7 +29,7 @@ function App() {
       <header className="App-header">
       <div className="logo-container">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">PhotoSnap AI</h1>
+          <h1 className="App-title">ProSnap AI</h1>
         </div>
       </header>
       <main className="App-main">
